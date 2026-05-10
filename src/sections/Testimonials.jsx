@@ -11,7 +11,7 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      style={{ background: 'var(--beige)', padding: '6rem 0' }}
+      style={{ background: 'var(--beige)', padding: '8rem 0' }}
     >
       <div className="container">
         {/* Header */}

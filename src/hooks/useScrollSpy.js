@@ -5,17 +5,23 @@ export function useScrollSpy(ids, offset = 80) {
   const [activeId, setActiveId] = useState('')
 
   useEffect(() => {
-    const handleScroll = () => {
-      let current = ''
-      for (const id of ids) {
-        const el = document.getElementById(id)
-        if (el) {
-          const rect = el.getBoundingClientRect()
-          if (rect.top <= offset + 20) current = id
+      const handleScroll = () => {
+        // Check if we are at the bottom of the page
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50) {
+          setActiveId(ids[ids.length - 1])
+          return
         }
+
+        let current = ''
+        for (const id of ids) {
+          const el = document.getElementById(id)
+          if (el) {
+            const rect = el.getBoundingClientRect()
+            if (rect.top <= offset + 20) current = id
+          }
+        }
+        setActiveId(current)
       }
-      setActiveId(current)
-    }
     window.addEventListener('scroll', handleScroll, { passive: true })
     handleScroll()
     return () => window.removeEventListener('scroll', handleScroll)

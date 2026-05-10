@@ -14,8 +14,7 @@ const SOCIALS = [
 export default function Contact() {
   return (
     <section
-      id="contact"
-      style={{ background: 'var(--ink)', padding: '8rem 0 4rem' }}
+      style={{ background: 'var(--ink)', padding: '5rem 0 3rem' }}
     >
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pb-10" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>

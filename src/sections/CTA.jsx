@@ -7,6 +7,7 @@ import { buildWhatsAppUrl, buildShopeeUrl } from '../utils/whatsapp'
 export default function CTA() {
   return (
     <section
+      id="contact"
       style={{
         background: 'var(--cream)',
         padding: '5rem 0',
