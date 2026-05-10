@@ -120,8 +120,8 @@ export default function Hero() {
             >
               {[
                 { num: '500+', label: 'Happy Customers' },
-                { num: '15+', label: 'Menu Pilihan' },
-                { num: '4.9★', label: 'Rating Rata-rata' },
+                { num: '15+', label: 'Bahan Pilihan' },
+                { num: '4.8★', label: 'Rating Rata-rata' },
               ].map(({ num, label }) => (
                 <div key={label}>
                   <p style={{ fontFamily: 'var(--font-display)', fontSize: '1.6rem', color: 'var(--ink)', lineHeight: 1 }}>{num}</p>

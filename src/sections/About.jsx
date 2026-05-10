@@ -50,7 +50,7 @@ export default function About() {
                 '/images/product_taco_shell_1778308529683.png',
                 '/images/product_tortilla_chips_1778308556041.png',
                 '/images/product_kulit_tortilla_1778308577344.png',
-                '/images/product_cheese_sauce_1778308594683.png',
+                '/images/saffron_threads_1778310417544.png',
               ].map((src, i) => (
                 <div
                   key={i}

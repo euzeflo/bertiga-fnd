@@ -357,7 +357,7 @@ export const testimonials = [
     name: 'Anisa Rahma',
     role: 'Food Enthusiast',
     rating: 5,
-    text: 'Taco shell-nya juara! Sangat renyah, gluten free, dan ukurannya pas. Kulit tortillanya juga lentur banget.',
+    text: 'Tadinya mau buat nachos untuk bekal anak2 tapi pas banget sama launching catering anak yang paling keren sebandung sporky maxi jadinya ngangur di freezer  belum tau kapan mau dipake',
     avatar: 'AR',
   },
   {
@@ -365,7 +365,7 @@ export const testimonials = [
     name: 'Budi Santoso',
     role: 'Home Cook',
     rating: 5,
-    text: 'Beli bumbu saffron dan paella kit di sini untuk stok di dapur. Hasil masakannya jadi autentik banget kayak di resto, padahal cuma masak sendiri di rumah. Packaging aman banget buat kirim ke luar kota.',
+    text: 'Bumbu paella dan saffron dari sini benar-benar mengubah masakan rumah jadi sekelas restoran Spanyol. Kualitas impor!',
     avatar: 'BS',
   },
   {
@@ -373,7 +373,7 @@ export const testimonials = [
     name: 'Citra Dewi',
     role: 'Ibu Rumah Tangga',
     rating: 5,
-    text: 'Suka banget belanja di sini buat kebutuhan masak anak-anak. Tortilla-nya awet di freezer dan gampang banget diolahnya. Pengiriman cepet dan seller-nya informatif banget.',
+    text: 'Anak-anak suka sekali dengan Colacao cokelatnya. Pengemasan sangat rapi dan aman, perlengkapan tray pestanya juga praktis.',
     avatar: 'CD',
   },
   {
@@ -381,7 +381,7 @@ export const testimonials = [
     name: 'Dimas Prasetyo',
     role: 'Event Organizer',
     rating: 5,
-    text: 'Langganan beli tortilla chips kiloan buat bahan jualan nachos saya. Kualitasnya stabil, garingnya pas, dan harganya masuk banget buat supplier. Pilihan terbaik buat cari bahan makanan Meksiko.',
+    text: 'Pesan bulk order tortilla chips dan boat tray untuk acara kantor. Sangat estetik, premium, dan harganya bersahabat.',
     avatar: 'DP',
   },
   {
@@ -389,7 +389,7 @@ export const testimonials = [
     name: 'Eka Fitriani',
     role: 'Chef',
     rating: 4,
-    text: 'Pesan salsa dan chili oil buat stok bumbu dasar di rumah. Rasanya autentik dan ngebantu banget buat bikin masakan jadi lebih istimewa tanpa harus ngeracik dari nol. Kualitas bahan bakunya jempolan.',
+    text: 'Chili oil dan salsa romesco-nya autentik banget. Sangat memudahkan pekerjaan dapur tapi rasanya tetap homemade.',
     avatar: 'EF',
   },
 ]
