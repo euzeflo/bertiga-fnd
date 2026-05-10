@@ -4,12 +4,12 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useNavbarScroll, useScrollSpy } from '../hooks/useScrollSpy'
 
 const NAV_LINKS = [
-  { href: '#home',         label: 'Home' },
-  { href: '#about',        label: 'About' },
-  { href: '#catalog',      label: 'Catalog' },
-  { href: '#featured',     label: 'Featured' },
+  { href: '#home', label: 'Home' },
+  { href: '#about', label: 'About' },
+  { href: '#catalog', label: 'Catalog' },
+  { href: '#featured', label: 'Featured' },
   { href: '#testimonials', label: 'Testimonials' },
-  { href: '#contact',      label: 'Contact' },
+  { href: '#contact', label: 'Contact' },
 ]
 
 const IDS = ['home', 'about', 'catalog', 'featured', 'testimonials', 'contact']
